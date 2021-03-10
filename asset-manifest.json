@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TugasWawanARC/static/css/main.e757ca9d.chunk.css",
+    "main.js": "/TugasWawanARC/static/js/main.c12fccda.chunk.js",
+    "main.js.map": "/TugasWawanARC/static/js/main.c12fccda.chunk.js.map",
+    "runtime-main.js": "/TugasWawanARC/static/js/runtime-main.4cdc077e.js",
+    "runtime-main.js.map": "/TugasWawanARC/static/js/runtime-main.4cdc077e.js.map",
+    "static/js/2.4d8d685e.chunk.js": "/TugasWawanARC/static/js/2.4d8d685e.chunk.js",
+    "static/js/2.4d8d685e.chunk.js.map": "/TugasWawanARC/static/js/2.4d8d685e.chunk.js.map",
+    "static/js/3.d680874b.chunk.js": "/TugasWawanARC/static/js/3.d680874b.chunk.js",
+    "static/js/3.d680874b.chunk.js.map": "/TugasWawanARC/static/js/3.d680874b.chunk.js.map",
+    "index.html": "/TugasWawanARC/index.html",
+    "static/css/main.e757ca9d.chunk.css.map": "/TugasWawanARC/static/css/main.e757ca9d.chunk.css.map",
+    "static/js/2.4d8d685e.chunk.js.LICENSE.txt": "/TugasWawanARC/static/js/2.4d8d685e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4cdc077e.js",
+    "static/js/2.4d8d685e.chunk.js",
+    "static/css/main.e757ca9d.chunk.css",
+    "static/js/main.c12fccda.chunk.js"
+  ]
+}
