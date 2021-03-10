@@ -1,0 +1,127 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1,h2,p{
+  color: white;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.5)
+  );
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+  width: 95%;
+  height: 85%;
+}
+
+
+.welcome{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  button{
+    cursor: pointer;
+    font-weight: bold;
+    padding: 20px;
+    width: 80%;
+    border: 2px solid black;
+    font-family: inherit;
+    background: transparent;
+    border-radius: 16px;
+    font-size: 20px;
+    outline: none;
+  }
+}
+
+.app{
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .glass {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: white;
+    min-height: 80vh;
+    width: 60%;
+    header{
+      width: 30%;
+      h1{
+        margin-top: 3vh;
+        color: black;
+      }
+      hr{
+        border: 2px solid black;
+        width: 100%;
+      }
+      .buttons{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        button{
+          cursor: pointer;
+          font-weight: bold;
+          padding: 10px;
+          width: 80%;
+          border: 2px solid black;
+          font-family: inherit;
+          background: transparent;
+          border-radius: 16px;
+          outline: none;
+        }
+      }
+      display: flex;
+      height: 80vh;
+      flex-direction: column;
+      align-items: center;
+      background-color: whitesmoke;
+      border-top-left-radius: 2rem;
+      border-bottom-left-radius: 2rem;
+      gap: 5px;
+      padding: 10px;
+    }
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    );
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+  }
+  h1,p{
+    color: black;
+    text-align: justify; 
+  }
+  .content{
+    width: 100%;
+    margin-left: 2vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: black;
+    gap: 20px;
+  }
+}
